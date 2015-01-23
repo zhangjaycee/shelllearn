@@ -10,4 +10,4 @@ alias gcmt="git commit -m"
 alias gpush="git push origin master"
 alias gadd="git add"
 
-
+echo ok~
