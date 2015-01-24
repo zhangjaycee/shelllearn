@@ -6,7 +6,8 @@
 count=1
 for img in $(find . -iname "*.txt");do
 	echo -n "$img ->"
-	new=text-$count.${img##*.}
+	new="text-$count.${img##*.}"
+	echo "$new"
 	mv "$img" "$new"
 	let count++
 done
