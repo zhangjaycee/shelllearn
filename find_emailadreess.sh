@@ -9,4 +9,4 @@ if [ $# -ne 1 ];then
 fi
 
 cat $1|\
-grep -E '[a-zA-Z0-9._]+@[a-zA-Z0-9.]+\.[a-zA-Z]{2,4}'
+grep -E -o '[a-zA-Z0-9._]+@[a-zA-Z0-9.]+\.[a-zA-Z]{2,4}'
