@@ -3,5 +3,4 @@ Jaycee;m;21
 Xiaoming;m;19
 Xiaoxuan;f;19
 Xiaoshabi;m;20
-
 Xiaodi;f;19
